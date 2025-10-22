@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff6b6b, #5f27cd, #10ac84);
+  background-size: 300% 300%;
+  animation: gradient-move 12s ease infinite;
+}
+
+@keyframes gradient-move {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
