@@ -22,10 +22,10 @@ body {
   text-align: center;
 }
 
-#about-us,
-#homelink {
+#about-us {
   position: fixed;
   top: 20px;
+  right: 30px;
   padding: 10px 18px;
   border-radius: 999px;
   backdrop-filter: blur(10px);
@@ -36,18 +36,9 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-#about-us:hover,
-#homelink:hover {
+#about-us:hover {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
-}
-
-#about-us {
-  right: 30px;
-}
-
-#homelink {
-  right: 30px;
 }
 
 #about-page {
@@ -55,6 +46,10 @@ body {
   padding: 60px;
   text-align: left;
   min-height: 100vh;
+  background: linear-gradient(135deg, #ff6b6b, #5f27cd, #10ac84);
+  background-size: 300% 300%;
+  animation: gradient-move 12s ease infinite;
+  font-family: 'Poppins', sans-serif;
 }
 
 #about-page h1 {
@@ -67,4 +62,23 @@ body {
   font-size: 1.2rem;
   line-height: 1.8;
   max-width: 700px;
+}
+
+#homelink {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+#homelink:hover {
+  transform: scale(1.05);
+  backdrop-filter: blur(14px);
 }
