@@ -31,3 +31,8 @@ body {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
 }
+
+#heading {
+  top: 200px;
+  right: 100px;
+}
