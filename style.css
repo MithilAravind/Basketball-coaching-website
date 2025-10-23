@@ -101,4 +101,8 @@ body {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
 }
-
+.rounded-input {
+  border-radius: 10px;
+  padding: 8px;
+        border: 1px solid #ccc; 
+}
