@@ -38,7 +38,17 @@ body {
 
 #heading {
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: 'Poppins', sans-serif;
   color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fade-up 1.4s ease-out forwards;
+}
+
+@keyframes fade-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
