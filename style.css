@@ -22,10 +22,10 @@ body {
   text-align: center;
 }
 
-#about-us,
-#homelink {
+#about-us {
   position: fixed;
   top: 20px;
+  right: 30px;
   padding: 10px 18px;
   border-radius: 999px;
   backdrop-filter: blur(10px);
@@ -36,16 +36,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-#about-us:hover,
-#homelink:hover {
+#about-us:hover {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
-}
-
-#index #about-us {
-  right: 30px;
-}
-
-#about-page #homelink {
-  left: 50px;
 }
