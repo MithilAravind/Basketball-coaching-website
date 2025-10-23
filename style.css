@@ -4,11 +4,15 @@ body {
   background: linear-gradient(135deg, #ff6b6b, #5f27cd, #10ac84);
   background-size: 300% 300%;
   animation: gradient-move 12s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @keyframes gradient-move {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
@@ -33,9 +37,8 @@ body {
 }
 
 #heading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
