@@ -25,7 +25,7 @@ body {
 #about-us {
   position: fixed;
   top: 20px;
-  right: 30px;
+  left: 30px;
   padding: 10px 18px;
   border-radius: 999px;
   backdrop-filter: blur(10px);
