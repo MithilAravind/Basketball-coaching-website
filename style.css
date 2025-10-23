@@ -64,7 +64,7 @@ body {
   max-width: 700px;
 }
 
-#homelink {
+.homelink {
   position: fixed;
   top: 20px;
   right: 30px;
@@ -78,7 +78,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-#homelink:hover {
+.homelink:hover {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
 }
