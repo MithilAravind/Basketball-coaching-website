@@ -5,8 +5,6 @@ body {
   background-size: 300% 300%;
   animation: gradient-move 12s ease infinite;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: 'Poppins', sans-serif;
 }
 
