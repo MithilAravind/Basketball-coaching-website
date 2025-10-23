@@ -38,3 +38,9 @@ body {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
 }
+
+#about-page {
+  display: block; 
+  padding: 60px;  
+  text-align: left;  
+}
